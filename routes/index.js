@@ -4,11 +4,11 @@ var os = require('os');
 var formidable = require('formidable');
 
 /* GET home page. */
-router.get('/', function (req, res, next) {
+router.get('/', function (req, res) {
   res.render('index', { title: 'KindEditor For NodeJS' });
 });
 
-router.post('/uploadImg', function (req, res, next) {
+router.post('/uploadImg', function (req, res) {
   var form = new formidable.IncomingForm();
   form.keepExtensions = true;
   let ActionType = req.query.dir;
