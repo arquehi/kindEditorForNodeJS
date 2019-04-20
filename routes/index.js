@@ -43,6 +43,9 @@ router.post('/uploadImg', function (req, res) {
         file_url = path.substr(path.lastIndexOf("\\"), path.length);
         file_url = file_url.replace("\\", "/");
       }
+      else {
+        file_url = path.substr(path.lastIndexOf("/"), path.length);
+      }
       switch (ActionType) {
         case 'image':
           file_url = '/Upload/Images' + file_url;//图片

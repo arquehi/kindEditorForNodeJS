@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca0e3053-71ce-4644-b37d-da9c3c4bd562" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="262">
+              <caret line="46" column="67" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -144,7 +145,8 @@
       <workItem from="1555732773382" duration="8322000" />
       <workItem from="1555750630336" duration="93000" />
       <workItem from="1555758495993" duration="912000" />
-      <workItem from="1555760968312" duration="205000" />
+      <workItem from="1555760968312" duration="510000" />
+      <workItem from="1555762271043" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="add file upload dir &#10;add video upload dir">
       <created>1555744256853</created>
@@ -167,11 +169,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555761034197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix ie11">
+      <created>1555761264405</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555761264405</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix ie11">
+      <created>1555761400958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555761400958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22687000" />
+    <option name="totallyTimeSpent" value="23096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -186,7 +202,7 @@
     <frame x="36" y="23" width="1644" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2340824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23657927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -221,6 +237,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -263,9 +282,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="add file upload dir &#10;add video upload dir" />
     <MESSAGE value="add file upload dir &#10;add video upload dir&#10;fix ie11" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file upload dir &#10;add video upload dir&#10;fix ie11" />
+    <MESSAGE value="fix ie11" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix ie11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,8 +418,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="262">
+          <caret line="46" column="67" lean-forward="true" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
         </state>
       </provider>
     </entry>
